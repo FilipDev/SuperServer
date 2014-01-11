@@ -93,7 +93,7 @@ public class Start extends JavaPlugin implements Listener{
 		for (Player player : Bukkit.getOnlinePlayers()) {
 			distance.put(player.getName(), player.getLocation().getX() + player.getLocation().getZ());
 		}
-		Settings.put("Trampoline", true);
+		Settings.put("Trampoline", false);
 		Settings.put("Physics", false);
 		Settings.put("TreeFelling", true);
 		for (Player player : Bukkit.getOnlinePlayers()){
