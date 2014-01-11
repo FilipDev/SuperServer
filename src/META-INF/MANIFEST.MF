@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: cat.gay.spherret.plugins.simplemessage
+Main-Class: Start

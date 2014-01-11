@@ -1,0 +1,5 @@
+# Configuration File for SuperServer
+BlockSwearing: false
+LogEvents: false
+SpawnPVPProtection: false
+ChatProtection: false

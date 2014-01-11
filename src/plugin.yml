@@ -1,0 +1,225 @@
+main: cat.gay.spherret.plugins.superserver.Star
+name: SuperServer
+version: 1.0
+author: Vizzra
+description: Adds a bunch of new commands and things you can do to make your server better.
+softdepend: [Vault]
+commands:
+    drop:
+    edestroy:
+    timelock:
+    ptime:
+    pweather:
+    deop:
+        description: Used to prevent deop being done without editing the ops.txt.
+    physics:
+        description: Enables or Disables physics from running.
+    se:
+        description: Lets you edit placed signs.
+    signedit:
+        description: Lets you edit placed signs.
+    test:
+        description: Gets your ping.
+    biome:
+        description: Test command.
+    block:
+        description: Blocks a player's chat from being displayed to you.
+    unblock:
+        description: Unblocks a player's chat from being displayed to you.
+    blocked:
+        description: Gets list of blocked players.
+    helpme:
+        description: Sends message to admins/mods.
+    setpos1:
+        description: Sets position 1 for world editing.
+    setpos2:
+        description: Sets position 2 for world editing.
+    biomeset:
+        description: Sets biome of block you are on.
+    delwarp:
+        description: Deletes a warp.
+    undo:
+        description: Does nothing ATM.
+    nofall:
+        description: Prevents fall damage.
+    c:
+        description: Puts you in creative mode.
+    a:
+        description: Puts you in adventure mode.
+    s:
+        description: Puts you in survival mode.
+    settpos1:
+        description: Selects target block as position 1 for terrain editing.
+    repair:
+        description: Completely repairs the item in your inventory.
+    home:
+    sethome:
+        description: Names your current location as your home using the first argument.
+    getid:
+    back:
+    killall:
+    enchant:
+    setwarp:
+    tree:
+    size:
+    warp:
+    chunkme:
+    entity:
+    replace:
+    fill:
+    up:
+    setmotd:
+    openinv:
+    sudo:
+    gimp:
+    world:
+    biometp:
+    tf:
+    down:
+    oplist:
+    rtd:
+    stop:
+    turnscreen:
+    justjoined:
+    dispose:
+    ls:
+    ls2:
+    worlds:
+    afk:
+    credits:
+    unlock:
+    deleteworld:
+    motd:
+    vanilla:
+    createworld:
+    sm:
+        description: Sends a player a message.
+        usage: /sm <player> <message>  
+    getconfigs:
+        description: Gets SuperServer's config file.
+        usage: /getconfigs
+    sb:
+        description: Broadcasts a message.
+        usage: /sb <message>
+    stop:
+        description: Broadcasts a message.
+        usage: /sb <message>
+    leave:
+        description: Fakes a player leave.
+        usage: /l <name>
+    vanish:
+        description: Vanishes a player.
+        usage: /vanish
+    join:
+        description: Fakes a player join.
+        usage: /j <name>
+    sban:
+    superserver:
+        description: Details about sphmoneymobs.
+        usage: /superserver
+    fly:
+        description: Enables flying for a player.
+        usage: /fly <player>
+    enabled:
+        description: Enables specific configuration files.
+        usage: /enable <config>
+    ib:
+        description: Enables intant break for a player.
+        usage: /ib <name>
+    credits:
+        description: Starts chooseyourpath for player.
+        usage: /chooseyourpath <name>
+    explode:
+        description: On wand click air, generate explosion on target block.
+        usage: /explode <player>
+    lightning:
+        description: On wand click air, generate lightning on target block.
+        usage: /lightning <player>
+    setname:
+        description: Sets the sender's name.
+        usage: /setname
+    setspawn:
+        description: Set's the server's spawn point.
+        usage: /setspawn
+    timeget:
+        description: Get's the world time in ticks.
+        usage: /timeget
+    spawn:
+        description: Teleports player to spawn.
+        usage: /spawn
+    mute:
+        description: Mute players.
+        usage: /mute <player>
+    cls:
+        description: Clears screen.
+        usage: /cls
+    kill:
+        description: Kills a player.
+        usage: /kill <player>
+    god:
+        description: Enables godmode for a player.
+        usage: /god <player>
+    heal:
+        description: Heals a player.
+        usage: /heal <player>
+    msg:
+        description: PMs a player.
+        usage: /msg <player> <message>
+    tell:
+        description: PMs a player.
+        usage: /tell <player> <message>
+    feed:
+        description: Feeds a player.
+        usage: /god <player> <amount>
+    ci:
+        description: Feeds a player.
+        usage: /ci
+    clearinventory:
+        description: Clears a player's inventory.
+        usage: /clearinventory
+    fire:
+        description: Sets a player on fire.
+        usage: /fire <player>
+    extinguish:
+        description: Extinguishes a player that has caught on fire.
+        usage: /extinguish <player>
+    saturation:
+        description: Gets player's saturation level.
+        usage: /saturation <player>
+    crash:
+        description: Crashes player's client.
+        usage: /crash <player>
+permissions:
+  superserver.*:
+    description: Lets players use all of superserver.
+    default: op
+  superserver.rtd:
+    description: Allows players use of /rtd
+    default: true
+  superserver.back:
+    description: Allows players use of /back
+    default: true
+  superserver.enchant:
+    description: Allows players use of /enchant
+    default: op
+  superserver.setwarp:
+    description: Allows players use of /setwarp
+    default: op
+  superserver.warp:
+    description: Allows players use of /warp
+    default: true
+  superserver.ptime:
+    description: Allows players use of /ptime  
+    default: true
+  superserver.pweather:
+    description: Allows players use of /pweather
+    default: true
+  superserver.chatcolor:
+    description: Allows players use of chat colours
+    default: true
+  superserver.edestroy:
+    description: Allows players use of /edestroy
+    default: op
+  superserver.timelock:
+    description: Allows players use of /timelock
+    default: op
