@@ -87,7 +87,7 @@ public class Start extends JavaPlugin implements Listener{
 		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA + "|SuperServer Enabled!|");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA + "|Author: swampshark19|");
 		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA + "|      Enjoy! :D     |");
-		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA + "----------------------");
+		Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA + "-`---------------------");
 		this.saveDefaultConfig();
 		registerConfig();
 		for (Player player : Bukkit.getOnlinePlayers()) {
